@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "216779798661",
+    "project_id": "cyanblue-club",
+    "storage_bucket": "cyanblue-club.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216779798661:android:78fe5e14ab9ac59d8b11ec",
+        "android_client_info": {
+          "package_name": "club.cyanblue.cyan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216779798661-8eb016h46ql4a4qrqc9e1ob3idn8tsp8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "club.cyanblue.cyan",
+            "certificate_hash": "6b5308155971092970aa7d6862120cefc4bd8928"
+          }
+        },
+        {
+          "client_id": "216779798661-s3rtqpiibecgkv2r2nqhq169950ooja8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRkkRlStTxXpS5EH0ThM-QH1YnlkHSz_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216779798661-1qbattltp0n6tagh5jhlhi8llhrs2e7p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
