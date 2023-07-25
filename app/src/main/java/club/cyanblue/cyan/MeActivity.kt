@@ -111,7 +111,7 @@ class MeActivity : ComponentActivity() {
             var user: User? by remember { mutableStateOf(null) }
 
             intent.data?.lastPathSegment.let { if (it.isNullOrBlank()) currentUser?.uid else it }?.let { uid ->
-                userService.getUser(uid, false, onError = {
+                userService.getUser(uid, user!!.uid == currentUser!!.uid, onError = {
                     Log.e("Log", it.toString())
                 }) {
                     user = it
