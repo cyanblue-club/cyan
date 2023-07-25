@@ -186,9 +186,16 @@ fun Me(context: Activity, user: User, onOpen: (Account) -> Unit = { account ->
         horizontalArrangement = Arrangement.Center,
         modifier = Modifier
             .fillMaxWidth()
-            .padding(bottom = 20.dp)
     ) {
         Text("@${user.username}", fontSize = 5.em)
+    }
+    Row(
+        horizontalArrangement = Arrangement.Center,
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(bottom = 20.dp)
+    ) {
+        Text(user.fullname, color = Color.Gray)
     }
     var personal by remember { mutableStateOf(false) }
     Row(
